@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: sdg8-career-guide
+    runtime: docker
+    plan: free
+    healthCheckPath: /_stcore/health
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false        # set the value in the Render dashboard

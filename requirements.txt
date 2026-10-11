@@ -1,0 +1,12 @@
+fastapi>=0.110
+uvicorn>=0.29
+python-multipart>=0.0.9
+pydantic>=2.6
+pypdf>=4.0
+fastembed>=0.3          # ONNX MiniLM - replaces torch + sentence-transformers (low RAM)
+numpy>=1.26
+anthropic>=0.40         # optional: enables LLM extraction + roadmap chain
+streamlit>=1.46
+plotly>=5.20
+pandas>=2.1
+requests>=2.31
